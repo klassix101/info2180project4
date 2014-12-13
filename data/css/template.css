@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* Denuon Johnson EDIT: I have entirely rewritten the css in a uniform, and logical manner, to boost productivity*/
+
+/* TEXTS */
+@font-face 
+{
+	font-family : ModernFont;
+	src : url(../fonts/modern.ttf);
+}
+@font-face 
+{
+	font-family : HeavyFont;
+	src : url(../fonts/heavy.ttf);
+}
+@font-face 
+{
+	font-family : FreeFormFont;
+	src : url(../fonts/freeform.ttf);
+}
+
+/*allow generic custom font classes*/
+.ModernFontClassification
+{	
+	font-family : ModernFont;
+}
+.HeavyFontClassification
+{	
+	font-family : HeavyFont;
+}
+
+.FreeFormFontClassification
+{	
+	font-family : FreeFormFont;
+}
+/*allow sizable generic custom font classes*/
+.LargeModernFontClassification
+{	
+	font-family : ModernFont;
+	font-size : 90px;
+}
+.MediumModernFontClassification
+{	
+	font-family : ModernFont;
+	font-size : 32px;
+}
+.NormalModernFontClassification
+{	
+	font-family : ModernFont;
+	font-size : 16px;
+}
+.SmallModernFontClassification
+{	
+	font-family : ModernFont;
+	font-size : 12px;
+}
+.LargeHeavyFontClassification
+{	
+	font-family : HeavyFont;
+	font-size : 90px;
+}
+.MediumHeavyFontClassification
+{	
+	font-family : HeavyFont;
+	font-size : 32px;
+}
+.NormalHeavyFontClassification
+{	
+	font-family : HeavyFont;
+	font-size : 16px;
+}
+.SmallHeavyFontClassification
+{	
+	font-family : HeavyFont;
+	font-size : 12px;
+}
+
+.LargeFreeFormFontClassification
+{	
+	font-family : FreeFormFont;
+	font-size : 90px;
+}
+.MediumFreeFormFontClassification
+{	
+	font-family : FreeFormFont;
+	font-size : 32px;
+}
+.NormalFreeFormFontClassification
+{	
+	font-family : FreeFormFont;
+	font-size : 16px;
+}
+.SmallFreeFormFontClassification
+{	
+	font-family : FreeFormFont;
+	font-size : 12px;
+}
+/*allow font colour selection*/
+.FontShade
+{
+	color:rgb(230,230,230);
+}
+.ContentPlainFontShade
+{
+	color:rgb(85,85,85);
+}
+.ContentPrettyFontShade
+{
+	color:rgb(0,160,230);
+}
+/*allow generic font sizing selectionss*/
+#LargeFont
+{
+	font-size : 90px;
+}
+#MediumFont
+{
+	font-size : 32px;
+}
+#NormalFont
+{
+	font-size : 16px;
+}
+#SmallFont
+{
+	font-size : 12px;
+}
+/* END OF TEXTS */
+
+
+
+/* AREAS */
+#cheapoHomeArea
+{
+	margin-top:3%;
+	margin-left:2%;
+	display:none;
+	opacity: 1.0;
+}
+#cheapoSignUpArea
+{
+	margin-top:8%;
+	margin-left:2%;
+	opacity: 1.0;
+}
+#cheapoUserListArea
+{
+	margin-top:8%;
+	margin-left:2%;
+	opacity: 1.0;
+}
+#cheapoMessageListArea
+{
+	margin-top:8%;
+	margin-left:2%;
+	opacity: 1.0;
+}
+#cheapoMesssageBodyArea
+{
+	margin-bottom:40px;
+}
+#cheapoComposeMessageArea
+{
+	margin-top:8%;
+	margin-left:2%;
+	opacity: 1.0;
+}
+
+/*FORMS*/
+textarea, select
+{ 
+	padding: 9px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	width: 200px;
+	background: #FFFFFF url('bg_form.png') left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 20px 20px 34px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 20px 20px 34px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 20px 20px 34px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    border-radius: 36px;
+}
+
+.regularInput
+{
+	padding: 9px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	width: 200px;
+	background: #FFFFFF url('bg_form.png') left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 20px 20px 34px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 20px 20px 34px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 20px 20px 34px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    border-radius: 36px;
+}
+
+
+input:hover
+{ 
+	cursor: pointer;
+	box-shadow: rgba(0,0,0, 0.1) 20px 20px 34px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 20px 20px 34px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 20px 20px 34px;
+}
+
+textarea
+{ 
+	width: 400px;
+	max-width: 400px;
+	height: 150px;
+	line-height: 150%;
+}
+
+input:hover, textarea:hover, select:hover,
+input:focus, textarea:focus, select:hover
+{ 
+	border-color: #C9C9C9; 
+	-webkit-box-shadow: rgba(0, 160, 230, 0.15) 1px 1px 8px;
+}
+
+.form label 
+{ 
+	margin-left: 10px; 
+	color: #999999; 
+}
+
+.submit input
+{
+	width: auto;
+	padding: 9px 15px;
+	background: rgb(65,65,65);
+	border: 0;
+	font-size: 12px;
+	color: #FFFFFF;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+/*END FORMS*/
+/*END FORMS*/
