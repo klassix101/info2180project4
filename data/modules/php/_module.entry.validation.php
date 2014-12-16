@@ -2,11 +2,7 @@
 	//session_start(); 
 	/* author(s) details : Herbert McNeil, Amoy Patterson */
 
-	//1.this function must be encapsulated in a <script> block in html destination, therein subsequenting a generic function 'generateGenericResponse' accepting one param, for generating
-	//1...generic responses based on input value, ( such as a custom message )
-	//2.this function must subsequent also, a generateSignInHtmlTemplateInformation , which accepts <\d+> params, contained in the same prior block as 'generateGenericResponse' function. 
-	//2...this function is what generates the template based on user information via database established in _module.entry.validation.php.
-	//3.this function must include email and password tags from the html destination consisting of email and password and submit button.
+	
 	
 	function generateCheapoEntryValidationProcess ( )
 	{

@@ -1,4 +1,4 @@
-//By Denuon Johnson
+
 
 //establish background image
 document.getElementById('cheapoBackgroundArea').style.backgroundImage = "url(data/images/foundation/cheapo.background.png)";

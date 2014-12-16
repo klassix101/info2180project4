@@ -1,4 +1,4 @@
-//written by jordan
+
 var grappleAmbienceElement = document.createElement('audio');
 
 
@@ -16,7 +16,7 @@ $(document).ready(function()
 
 	grappleWelcomeVoiceElement.play ();
 
-	//establish employme voice welcome element
+	
 	var grappleWelcomeVoiceBlanketElement = document.createElement('audio');
 	grappleWelcomeVoiceBlanketElement.setAttribute('src', 'data/audios/grappleVoiceBlanketAudio.ogg');
 	grappleWelcomeVoiceBlanketElement.load()
@@ -25,12 +25,12 @@ $(document).ready(function()
 		$(".duration span").html(grappleWelcomeVoiceBlanketElement.duration);
 		$(".filename span").html(grappleWelcomeVoiceBlanketElement.src);
 	}, false);
-	//Note to jordan, the last param means loop.
+	
 
 	grappleWelcomeVoiceBlanketElement.play ();
 	
 	
-	//establish employme voice welcome element
+	
 	grappleAmbienceElement.setAttribute('src', 'data/audios/grappleStartupAudio.ogg');
 	grappleAmbienceElement.load()
 	grappleAmbienceElement.addEventListener("load", function() { 
@@ -44,7 +44,7 @@ $(document).ready(function()
 
 
 
-//establish sound player
+
 function playSound ( soundStream )
 {
 	var soundElement = document.createElement('audio');
@@ -59,7 +59,7 @@ function playSound ( soundStream )
 	soundElement.play();
 }
 
-//establish ambience player controller mechanism
+
 	var grappleAmbienceRunningEnquiry = false;
 	function toggleTrackFlag ()
 	{
